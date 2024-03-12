@@ -1,0 +1,14 @@
+Wzorzec strategia definiuje algorytmy i hermetyzuje je by umożliwić modyfikowanie ich bez wpływu na pozostałą część kodu.
+Również w trakcie trwania projektu łatwiej jest programiście zastosować nowe strategie bez potrzeby refaktoryzacji kodu.
+Natomiast sam interfejs skupia się na zdefiniowaniu abstrakcji i implementacji ich zachowań. Rozszerzanie interfejsu może
+wymagać refaktoryzacji kodu, co sprawia że interfejs jest mniej elastyczny niż wzorzec strategia.
+
+Zalety wzorca strategia:
+- czytelny kod
+- łatwo modyfikowalny kod
+- łatwe dodawanie nowych strategii
+
+Wady wzorda strategia:
+- może powodować spadek wydajności
+- może być nadużywanych do prostych algorytmów
+- może utrudnić debugowanie kodu
